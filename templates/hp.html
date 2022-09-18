@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.css') }}"> 
+    </head>
+    <body>
+        <h1> Patient Portal </h1>
+        <button class="btn btn-primary"> Next </button> 
+        <button class="btn btn-success"> Back </button> 
+    </body>
+    <!-- this is the nav bar that would allow to "search Patient"-->
+    <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">+Patient Search</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Exam</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Ledger</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Logout</a>
+        </li>
+      </ul>
+</html>
